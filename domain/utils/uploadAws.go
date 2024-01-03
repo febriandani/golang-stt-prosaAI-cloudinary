@@ -13,7 +13,7 @@ import (
 )
 
 func UploadFileAws(key string, filename string) (*manager.UploadOutput, error) {
-	path := "./uploads/" + filename
+	path := "./temporaryUploads/" + filename
 
 	file, err := os.Open(path)
 	if err != nil {

@@ -612,7 +612,7 @@ func (uh UserHandler) UploadFile(res http.ResponseWriter, req *http.Request) {
 	defer file.Close()
 
 	// Specify the directory where you want to save the uploaded file
-	tempDir := "./uploads/"
+	tempDir := "./temporaryUploads/"
 
 	// Ensure the upload directory exists
 	if _, err := os.Stat(tempDir); os.IsNotExist(err) {
