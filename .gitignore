@@ -1,0 +1,10 @@
+vendor/
+log/
+profile.cov
+coverage.sh
+.logistic.env
+.env
+temp
+cover.out
+cover-backend.html
+config/
