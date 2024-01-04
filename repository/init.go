@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/pharmaniaga/auth-user/infra"
-	ru "github.com/pharmaniaga/auth-user/repository/user"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/infra"
+	ru "github.com/febriandani/golang-stt-prosaAI-cloudinary/repository/user"
 	"github.com/sirupsen/logrus"
 )
 

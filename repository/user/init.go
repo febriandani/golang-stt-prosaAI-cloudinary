@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/pharmaniaga/auth-user/infra"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/infra"
 	"github.com/sirupsen/logrus"
 )
 

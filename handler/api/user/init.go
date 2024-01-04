@@ -1,8 +1,8 @@
 package user
 
 import (
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/service"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/service"
 	"github.com/sirupsen/logrus"
 )
 

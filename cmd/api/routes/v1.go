@@ -3,9 +3,9 @@ package routes
 import (
 	"net/http"
 
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/handler/api"
 	"github.com/gorilla/mux"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/handler/api"
 )
 
 func getV1(freeRoute, router, routerJWT, wsRoute *mux.Router, conf *general.AppService, handler api.Handler) {

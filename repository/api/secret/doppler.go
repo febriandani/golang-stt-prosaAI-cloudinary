@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	cg "github.com/pharmaniaga/auth-user/domain/constants/general"
-	mg "github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/domain/utils"
+	cg "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
+	mg "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/utils"
 )
 
 func GetCredentials(url, key, password string) (*mg.AppService, error) {

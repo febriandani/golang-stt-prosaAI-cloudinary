@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	mu "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/user"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/utils"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/infra"
+	ru "github.com/febriandani/golang-stt-prosaAI-cloudinary/repository/user"
 	"github.com/go-redis/redis/v8"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	mu "github.com/pharmaniaga/auth-user/domain/model/user"
-	"github.com/pharmaniaga/auth-user/domain/utils"
-	"github.com/pharmaniaga/auth-user/infra"
-	ru "github.com/pharmaniaga/auth-user/repository/user"
 	"github.com/sirupsen/logrus"
 )
 

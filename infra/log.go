@@ -3,10 +3,10 @@ package infra
 import (
 	"os"
 
+	constants "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/utils"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
-	constants "github.com/pharmaniaga/auth-user/domain/constants/general"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/domain/utils"
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
 )
