@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	cg "github.com/pharmaniaga/auth-user/domain/constants/general"
-	dg "github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/domain/utils"
+	cg "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
+	dg "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/utils"
 	"github.com/sirupsen/logrus"
 )
 

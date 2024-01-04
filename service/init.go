@@ -1,11 +1,11 @@
 package service
 
 import (
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/infra"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/repository"
+	su "github.com/febriandani/golang-stt-prosaAI-cloudinary/service/user"
 	"github.com/go-redis/redis/v8"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/infra"
-	"github.com/pharmaniaga/auth-user/repository"
-	su "github.com/pharmaniaga/auth-user/service/user"
 	"github.com/sirupsen/logrus"
 )
 

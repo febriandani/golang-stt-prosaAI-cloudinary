@@ -5,7 +5,7 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
 )
 
 const (

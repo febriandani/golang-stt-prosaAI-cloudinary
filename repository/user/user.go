@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pharmaniaga/auth-user/domain/model/user"
-	"github.com/pharmaniaga/auth-user/infra"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/user"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/infra"
 	"github.com/sirupsen/logrus"
 )
 

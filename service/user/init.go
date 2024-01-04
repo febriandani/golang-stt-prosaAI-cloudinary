@@ -1,10 +1,10 @@
 package user
 
 import (
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/infra"
+	ru "github.com/febriandani/golang-stt-prosaAI-cloudinary/repository/user"
 	"github.com/go-redis/redis/v8"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/infra"
-	ru "github.com/pharmaniaga/auth-user/repository/user"
 	"github.com/sirupsen/logrus"
 )
 
