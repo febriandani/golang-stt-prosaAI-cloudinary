@@ -6,7 +6,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/pharmaniaga/auth-user/domain/constants/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
 )
 
 func PhoneNumberValidator(phone string) bool {

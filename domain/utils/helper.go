@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
+	constants "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
 	"github.com/gorilla/websocket"
-	constants "github.com/pharmaniaga/auth-user/domain/constants/general"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
 )
 
 type ResponseHTTP struct {

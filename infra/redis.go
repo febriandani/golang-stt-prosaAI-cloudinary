@@ -5,8 +5,8 @@ import (
 	"crypto/tls"
 	"fmt"
 
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
 	"github.com/go-redis/redis/v8"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
 	"github.com/spf13/viper"
 )
 

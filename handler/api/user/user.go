@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"os"
 
-	cg "github.com/pharmaniaga/auth-user/domain/constants/general"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	mu "github.com/pharmaniaga/auth-user/domain/model/user"
-	"github.com/pharmaniaga/auth-user/domain/utils"
-	su "github.com/pharmaniaga/auth-user/service/user"
+	cg "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	mu "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/user"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/utils"
+	su "github.com/febriandani/golang-stt-prosaAI-cloudinary/service/user"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/pharmaniaga/auth-user/domain/model/general"
-	"github.com/pharmaniaga/auth-user/handler/api/authorization"
-	hu "github.com/pharmaniaga/auth-user/handler/api/user"
-	"github.com/pharmaniaga/auth-user/service"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/handler/api/authorization"
+	hu "github.com/febriandani/golang-stt-prosaAI-cloudinary/handler/api/user"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/service"
 	"github.com/sirupsen/logrus"
 )
 

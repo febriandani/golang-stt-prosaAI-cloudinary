@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	constants "github.com/pharmaniaga/auth-user/domain/constants/general"
-	"github.com/pharmaniaga/auth-user/domain/model/general"
+	constants "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
+	"github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/model/general"
 	log "github.com/sirupsen/logrus"
 
 	"github.com/jmoiron/sqlx"
