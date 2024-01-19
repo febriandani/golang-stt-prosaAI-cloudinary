@@ -677,6 +677,15 @@ func (uh UserHandler) UploadFile(res http.ResponseWriter, req *http.Request) {
 		return
 	}
 
+	if _, err := uh.user.User.CreateHistories(req.Context(), session.ID, resultCloudinary, resultAudio.TranscriptData); err != nil {
+		respData.Message = map[string]string{
+			"en": "Error to save history",
+			"id": "Error to save history",
+		}
+		utils.WriteResponse(res, respData, http.StatusBadRequest)
+		return
+	}
+
 	if err == nil {
 		err := os.RemoveAll(tempDir)
 		if err != nil {
@@ -689,8 +698,6 @@ func (uh UserHandler) UploadFile(res http.ResponseWriter, req *http.Request) {
 			return
 		}
 	}
-
-	go uh.user.User.CreateHistories(req.Context(), session.ID, resultCloudinary, resultAudio.TranscriptData)
 
 	respData = &utils.ResponseDataV2{
 		Status:  cg.Success,

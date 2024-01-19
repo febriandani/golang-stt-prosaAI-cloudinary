@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"net/http"
 	"strconv"
+	"strings"
 	"time"
 
 	constants "github.com/febriandani/golang-stt-prosaAI-cloudinary/domain/constants/general"
@@ -147,4 +148,23 @@ func ConvertEpochToDateTime(epoch int64) string {
 	formattedTime := localTime.Format("2006-01-02 15:04:05")
 
 	return formattedTime
+}
+
+func GenerateSubstrings(textInput string) []string {
+	words := splitTextIntoWords(textInput)
+	numWords := len(words)
+	substrings := make([]string, 0)
+
+	for i := 0; i < numWords; i++ {
+		for j := i; j < numWords; j++ {
+			substring := strings.Join(words[i:j+1], " ")
+			substrings = append(substrings, substring)
+		}
+	}
+
+	return substrings
+}
+
+func splitTextIntoWords(text string) []string {
+	return strings.Fields(text)
 }

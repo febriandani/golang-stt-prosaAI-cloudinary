@@ -25,4 +25,5 @@ func getV1(freeRoute, router, routerJWT, wsRoute *mux.Router, conf *general.AppS
 	routerJWT.HandleFunc("/v1/update-user", handler.User.User.UpdateUser).Methods(http.MethodPost)
 	// freeRoute.Handle("/", http.FileServer(http.Dir("static"))) // Serve a simple HTML/JS client for demonstration
 	routerJWT.HandleFunc("/v1/upload", handler.User.User.UploadFile).Methods(http.MethodPost)
+	freeRoute.HandleFunc("/v1/images", handler.Image.Image.GetImages).Methods(http.MethodPost)
 }
